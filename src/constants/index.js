@@ -102,12 +102,12 @@ export const siteText = [
 export const portText = [
     {
         num: "01",
-        title: "어워드에도 올라간 포트폴리오",
-        desc: "라마 디자인을 통해 자신의 스킬을 가장 멋지게 표현한 포트폴리오입니다. 가로 모드와 세로 모드는 매우 인상적이며 특히 리액트와 비트를 이용하여 제작한 것은 더욱 놀랍습니다. 이 사이트는 awwwards.com에도 인정받아 올라간 포트폴리오입니다. 확실히 그의 뛰어난 디자인 스킬과 기술력이 빛을 발휘한 결과물인 것 같습니다.",
+        title: "자유자재로 움직이는 팔",
+        desc: "6개의 관절을 활용한 훨씬 더 역동적인 움직임.",
         img: port01,
-        code: "https://github.com/kimsangjunv1/-React-Portfolio",
-        view: "https://portfoliosj-react.netlify.app",
-        name: "김상* 포트폴리오",
+        code: "https://www.doosanrobotics.com/ko/products/series/e0509",
+        view: "https://www.doosanrobotics.com/ko/products/series/e0509",
+        name: "Doosan Robotics E class",
     },
     {
         num: "02",
@@ -194,8 +194,8 @@ export const portText = [
 
 export const contactText = [
     {
-        link: "https://open.kakao.com/o/gM7YLzwf",
-        title: "KAKAO : webstupids",
+        link: "/",
+        title: "대표 : 임주연",
     },
     {
         link: "mailto:webstoryboy@naver.com",
