@@ -5,7 +5,7 @@ const Site = () => {
     return (
         <section id="site">
             <div className="site__inner">
-                <h2 className="site__title">Site coding <em>나의 작업물</em></h2>
+                <h2 className="site__title">SLOGAN <em>우리의 방향성</em></h2>
                 <div className="site__wrap">
                     {siteText.map((site,key)=> (
                         <article className={`site__item s${key+1}`} key={key}>
@@ -18,11 +18,7 @@ const Site = () => {
                         <h3 className="title">
                             {site.title}
                         </h3>
-                        <div className="btn">
-                            <a href={site.code}>code</a>
-                            <a href={site.view}>view</a>
-                        </div>
-                        
+
                     </article>
                 ))}    
                 </div>

@@ -8,15 +8,15 @@ import robo06 from "../assets/img/robo06.jpg";
 
 export const headerNav = [
     {
-        title: "Slogan",
+        title: "intro",
         url: "#intro",
     },
     {
-        title: "skill",
+        title: "essay",
         url: "#skill",
     },
     {
-        title: "Education",
+        title: "Slogan",
         url: "#site",
     },
     {
@@ -51,49 +51,25 @@ export const skillText = [
 
 export const siteText = [
     {
-        text: ["make", "site compliant with", "webstandard"],
-        title: "비트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vite",
-        view: "https://port2023-vite.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
-        ],
+        text: ["ITCOBOT", "can", "help you"],
+        title: "ITCOBOT은 당신을 도와줍니다",
+        code: "#",
+        view: "#",
+        
     },
     {
-        text: ["make", "site compliant with", "react.js"],
-        title: "리액트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-react",
-        view: "https://port2023-react.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, CSS Variable, Vite",
-        ],
+        text: ["ITCOBOT", "go", "with you"],
+        title: "ITCOBOT은 당신과 함께 합니다",
+        code: "#",
+        view: "#",
     },
     {
-        text: ["make", "site compliant with", "vue.js"],
-        title: "뷰를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-vue",
-        view: "https://port2023-vue.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, vue",
-        ],
+        text: ["ITCOBOT", "will be", "your friend"],
+        title: "ITCOBOT은 당신의 친구가 될 것입니다",
+        code: "#",
+        view: "#",
     },
-    {
-        text: ["make", "site compliant with", "next.js"],
-        title: "넥스트를 이용한 사이트 제작",
-        code: "https://github.com/webstoryboy/port2023-next",
-        view: "https://port2023-next.netlify.app",
-        info: [
-            "site coding",
-            "production period : two days",
-            "use stack : HTML5/CSS3, Scss Variable, next.js",
-        ],
-    },
+    
 ];
 
 export const roboText = [
