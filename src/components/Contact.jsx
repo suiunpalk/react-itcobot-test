@@ -32,15 +32,6 @@ const Contact = () => {
                        
                     </div>
                 </div>
-                <div className="contact__lines" aria-hidden="true">
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                    <span className="line"></span>
-                </div>
             </div>
         </section>
     )

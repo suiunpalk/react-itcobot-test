@@ -7,16 +7,7 @@ const Intro = () => {
         <section id="intro">
             <div class="intro__inner">
                 <h1 class="intro__title">{introText.title}</h1>
-                <div class="intro__lines" aria-hidden="true">
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                    <span class="line"></span>
-                </div>
-                <div class="intro__text">
+                <div class="intro__text gradient">
                     <div class="text">
                         <div>{introText.desc[0]}</div>
                         <div>{introText.desc[1]}</div>

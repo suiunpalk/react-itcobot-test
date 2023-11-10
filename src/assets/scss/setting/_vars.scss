@@ -3,12 +3,12 @@
     --mainKor-font: "nanumSquareNeo";
     --mainNum-font: "gmarket";
   
-    --mainBg-color: #f3ede8;
-    --subBg100: #cdc0b1;
-    --subBg200: #afa395;
-    --subBg300: #81887c;
-    --subBg400: #afa7a2;
-    --subBg500: #a6afa2;
+    --mainBg-color: #eae8f3;
+    --subBg100: rgb(181, 177, 240);
+    --subBg200: rgb(129, 122, 221);
+    --subBg300: rgb(42, 31, 190);
+    --subBg400: rgb(69, 57, 227);
+    --subBg500: rgb(108, 99, 245);
   
     --white: #fff;
     --black: #000;
@@ -16,6 +16,37 @@
     --black200: #434343;
     --black300: #686868;
     --black400: #e0e0e0;
+
+    .gradient {
+        position: relative;
+        min-height: 200px;
+        background-image: linear-gradient(
+          to right,
+          hsl(240, 81%, 27%),
+          hsl(229, 65%, 81%)
+        );
+        z-index: 1;
+      }
+      
+      .gradient::before {
+        position: absolute;
+        content: "";
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-image: linear-gradient(
+          to bottom,
+          hsl(344, 92%, 71%),
+          hsl(284, 100%, 40%)
+        );
+        z-index: -1;
+        transition: opacity 0.5s linear;
+        opacity: 0;
+      }
+      .gradient:hover::before {
+        opacity: 1;
+      }
   
     font-family: var(--mainEng-font), var(--mainKor-font);
     font-size: 16px;

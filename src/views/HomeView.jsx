@@ -3,7 +3,7 @@ import Header from "../components/Header";
 import Intro from "../components/Intro";
 import Skill from "../components/Skill"
 import Site from "../components/Site";
-import Port from "../components/Port";
+import Robo from "../components/Robo";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Skip from "../components/Skip";
@@ -18,7 +18,7 @@ const Homeview = () => {
             <Intro />
             <Skill />
             <Site />
-            <Port />
+            <Robo />
             <Contact />
         </Main>
         <Footer />
