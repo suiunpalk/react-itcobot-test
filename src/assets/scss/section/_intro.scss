@@ -24,7 +24,7 @@
         letter-spacing: -0.3vw;
 
         @media (max-width: 320px){ 
-            display: none;
+            display: inline-block;
         }
     }
     .intro__text {
@@ -120,7 +120,7 @@
                 display: none;
 
                 @media (max-width: 800px){ 
-                    display: block;
+                    display: none;
                 }
 
                 &:nth-child(1){

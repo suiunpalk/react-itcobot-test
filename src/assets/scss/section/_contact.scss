@@ -24,7 +24,7 @@
         letter-spacing: -0.3vw;
 
         @media (max-width: 800px){ 
-            display: none;
+            display: inline-block;
         }
     }
     .contact__text {
