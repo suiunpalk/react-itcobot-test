@@ -25,7 +25,7 @@ export const headerNav = [
     },
     {
         title: "contact",
-        url: "http://localhost:3000/contact",
+        url: "#contact",
     },
 ];
 
