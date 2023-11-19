@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/react-itcobot-test/static/css/main.945f8a43.css",
+    "main.js": "/react-itcobot-test/static/js/main.cb1afd4a.js",
+    "static/media/robo04.jpg": "/react-itcobot-test/static/media/robo04.0ac0954a9670a704c570.jpg",
+    "static/media/robo06.jpg": "/react-itcobot-test/static/media/robo06.0ac0954a9670a704c570.jpg",
+    "static/media/robo05.jpg": "/react-itcobot-test/static/media/robo05.56976ba8d78962947211.jpg",
+    "static/media/robo03.jpg": "/react-itcobot-test/static/media/robo03.95dfc2901b043945353a.jpg",
+    "static/media/robo01.jpg": "/react-itcobot-test/static/media/robo01.752fedf60a9d7d37d95a.jpg",
+    "static/media/robo02.jpg": "/react-itcobot-test/static/media/robo02.7d67cbeba1d6c823a41d.jpg",
+    "static/media/hexa-logo.svg": "/react-itcobot-test/static/media/hexa-logo.bc4f8d8a31958a16bbbf1f3d466141ce.svg",
+    "static/media/tab-click.svg": "/react-itcobot-test/static/media/tab-click.433bbdd4f644a56df48f.svg",
+    "index.html": "/react-itcobot-test/index.html",
+    "main.945f8a43.css.map": "/react-itcobot-test/static/css/main.945f8a43.css.map",
+    "main.cb1afd4a.js.map": "/react-itcobot-test/static/js/main.cb1afd4a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.945f8a43.css",
+    "static/js/main.cb1afd4a.js"
+  ]
+}
