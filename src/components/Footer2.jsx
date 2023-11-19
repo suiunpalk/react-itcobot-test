@@ -2,7 +2,7 @@ import React from "react";
 
 import { footerText } from "../constants";
 
-const Footer = () => {
+const Footer2 = () => {
     return (
         <footer id="footer" role="contentinfo">
             <div className="footer__inner">
@@ -13,9 +13,9 @@ const Footer = () => {
                 <div className="footer__info">
                     <div className="left">
                         <div className="title">
-                            <a href="/contact" >Quote Contact</a>
+                            <a href="/" >Back to the home</a>
                         </div>
-                        <p className="desc">견적 문의와 관련된 사항에 대해 알려주세요</p>
+                        <p className="desc">메인 페이지로 돌아가기</p>
                     </div>
                     <div className="right">
                         <h3>social</h3>
@@ -38,4 +38,4 @@ const Footer = () => {
     )
 }
 
-export default Footer;
+export default Footer2;

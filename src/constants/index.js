@@ -8,16 +8,16 @@ import robo06 from "../assets/img/robo06.jpg";
 
 export const headerNav = [
     {
-        title: "intro",
-        url: "#intro",
+        title: "slogan",
+        url: "#slogan",
     },
     {
-        title: "essay",
-        url: "#skill",
+        title: "challenge",
+        url: "#challenge",
     },
     {
-        title: "Slogan",
-        url: "#site",
+        title: "Direction",
+        url: "#direction",
     },
     {
         title: "Robotics",
@@ -25,31 +25,31 @@ export const headerNav = [
     },
     {
         title: "contact",
-        url: "#contact",
+        url: "http://localhost:3000/contact",
     },
 ];
 
-export const introText = {
+export const sloganText = {
     title: "Robot + Human",
     desc: ["Robot", "Can be our", "friend"],
 };
 
-export const skillText = [
+export const challengeText = [
     {
-      title: "꿈을 설계하고 디자인하다.",
-      desc: "나는 공간을 만드는 것을 좋아한다. 어려을 때부터 나만의 공간을 만드는 것을 좋아했고 나만의 다락방을 좋아했다. 단 한 사람이라도 내가 만든 공간 속에서 영감을 받거나 마음이 움직였으면 좋겠다. 나만의 공간을 마음것 만들 수 있다는 건 코딩에 엄청난 매력인거 같다. 그 한구석에 나만의 꿈을 설계하고, 개발을 하며 앞으로도 살고 싶다.",
+      title: "미래을 설계하고 디자인하다.",
+      desc: "새로운 공간과 새로운 도구를 다루는 것을 좋아한다. 나 혼자 그 공간에 우두커니 서 있으면 왠지 모를 외로움을 느낄 때가 간혹 있다. 또 혼자만의 시간과 노동은 때로는 엄청난 피로가 파도처럼 밀려올 때가 가끔 있다. 이제 나의 피로와 외로움을 덜어줄 ITCOBOT이 필요하다.",
     },
     {
-      title: "열심히 할수록 기회는 따른다.",
-      desc: "운이 좋은 사람은 없다. 단지 운을 만들 뿐이다. 운을 만들기 위해서는 내가 좋아하는 일이나 내가 하고 싶은 일에 몰두하면 된다. 몰두 하다보면 길이 보이고 방향이 보이게 된다. 운이란 고된 노동과 노력을 통해 스스로 만들어 내는 것이다.",
+      title: "열심히 할수록 기회는 온다.",
+      desc: "운이 좋은 사람은 없다. 운은 만드는 것이다. 자신이 좋아하는 일이나 자신이 하고 싶은 일에 몰두하면 되면 운이 생긴다. 우리가 만들어 낸 협동 로봇은 우리에게 가장 큰 행운으로 다가온다는 것을 믿어 의심치 않는다.",
     },
     {
-      title: "나에게 정직하다.",
-      desc: "정직은 다른 사람보다 나에게 큰 의미를 부여해야 한다. 자신이 정직하지 않으면 진정으로 원하는 일을 열정적으로 밀고 나갈 수 없다. 마음에서 우러나오는 일을 해야 정직해지며 삶을 더 즐길 줄 알게 된다.",
+      title: "모두에게 정직하다.",
+      desc: "남뿐만 아니라 자신에게 가장 정직해야 한다. 나 자신을 속이는 사람은 결국 아무도 믿지 못하고 믿게 할 수도 없다. 정직함을 바탕으로 우리 ITCOBOT은 많은 사람들에게 신뢰를 줄 준비가 늘 되어 있다. 지금은 믿지 못해도 결국 정직함이 그 해결책이 되어줄 것이다.",
     },
 ];
 
-export const siteText = [
+export const directionText = [
     {
         text: ["ITCOBOT", "can", "help you"],
         title: "ITCOBOT은 당신을 도와줍니다",
@@ -144,14 +144,19 @@ export const footerText = [
     {
         title: "youtube",
         desc: "유튜브에 오시면 더 자세한 영상을 볼 수 있습니다.",
-        link: "https://www.youtube.com/@Webstoryboy",
+        link: "https://www.youtube.com/",
     },
     {
         title: "tistory",
         desc: "티스토리에 오시면 아기자기한 소식들을 볼 수 있습니다.",
-        link: "https://tistory.com/webstoryboy",
+        link: "https://tistory.com/",
     },
     
 ];
 
 
+export const quoteText = [
+    {
+
+    },
+];

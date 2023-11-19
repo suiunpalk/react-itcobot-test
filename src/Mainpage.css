@@ -1,19 +1,19 @@
-.App {
+.Mainpage {
   text-align: center;
 }
 
-.App-logo {
+.Mainpage-logo {
   height: 40vmin;
   pointer-events: none;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .Mainpage-logo {
+    animation: Mainpage-logo-spin infinite 20s linear;
   }
 }
 
-.App-header {
+.Mainpage-header {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -24,11 +24,11 @@
   color: white;
 }
 
-.App-link {
+.Mainpage-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+@keyframes Mainpage-logo-spin {
   from {
     transform: rotate(0deg);
   }

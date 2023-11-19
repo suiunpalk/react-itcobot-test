@@ -1,8 +1,8 @@
 import React from "react";
 import Header from "../components/Header";
-import Intro from "../components/Intro";
-import Skill from "../components/Skill"
-import Site from "../components/Site";
+import Slogan from "../components/Slogan";
+import Challenge from "../components/Challenge"
+import Direction from "../components/Direction";
 import Robo from "../components/Robo";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
@@ -15,9 +15,9 @@ const Homeview = () => {
         <Skip />
         <Header />
         <Main>
-            <Intro />
-            <Skill />
-            <Site />
+            <Slogan />
+            <Challenge />
+            <Direction />
             <Robo />
             <Contact />
         </Main>

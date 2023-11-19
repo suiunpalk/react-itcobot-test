@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import itcobotLogo from "../assets/img/logo-arm1.svg"
+import itcobotLogo from "../assets/img/hexa-logo.svg"
 import { headerNav } from "../constants";
 
 const Header = () => {
