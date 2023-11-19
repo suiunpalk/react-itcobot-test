@@ -6,7 +6,7 @@ import QuoteView from "./views/QuoteView";
 import smooth from "./utils/smooth";
 import link from "./utils/link"
 
-const Mainpage = () => {
+const App = () => {
   useEffect(() => {
     smooth();
     link();
@@ -23,4 +23,4 @@ const Mainpage = () => {
     );
 };
 
-export default Mainpage;
+export default App;
